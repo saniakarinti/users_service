@@ -11,11 +11,11 @@ export class UsersService {
       name: 'John Doe',
       city: 'Jakarta',
     },
-    {
-      id: 2,
-      name: 'Doe John',
-      city: 'Yogyakarta',
-    },
+    // {
+    //   id: 2,
+    //   name: 'Doe John',
+    //   city: 'Yogyakarta',
+    // },
   ];
 
   async findOne(id: number): Promise<User | undefined> {
